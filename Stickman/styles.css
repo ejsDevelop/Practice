@@ -1,0 +1,75 @@
+
+body{margin-left:200px; margin-top:200px;}
+
+.la{
+margin-left:1px; margin-top:-70px; width:50px; height:10px;
+position:fixed;background:black; border-radius:2px;
+ -ms-transform: rotate(280deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(280deg); /* Standard syntax */
+    
+}
+.la:hover{background:black;
+margin-left:0px; margin-top:-90px;
+
+ -ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(360deg); /* Standard syntax */
+
+
+}
+
+.ra{
+margin-left:39px; margin-top:-70px; width:50px; height:10px;
+position:fixed;background:black; border-radius:2px;
+ -ms-transform: rotate(80deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(80deg); /* Standard syntax */
+}
+
+.ra:hover{background:black;
+margin-top:-90px;
+ -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(0deg); /* Standard syntax */
+
+
+
+}
+
+.rl{
+margin-left:50px; margin-top:-50px; width:10px; height:50px;
+background:black; border-radius:2px; position:fixed;
+}
+
+.rl:hover{height:60px;}
+.ll{
+margin-left:30px; margin-top:-50px; width:10px; height:50px;background:black; border-radius:2px;
+position:fixed;
+}
+
+.ll:hover{height:60px;}
+.h{margin-left:35px; margin-top:-110px; width:20px; height:20px; border-radius:9px;
+position:fixed;background:black;
+}
+
+.h:hover{border-radius:1px;
+
+
+ -ms-transform: rotate(42deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(42deg); /* Standard syntax */
+
+
+
+
+}
+.bdy{margin-left:30px; margin-top:-90px; width:30px; height:60px;
+position:fixed;background:black}
+
+.bdy:hover{ height:70px;}
+
+.one{border: 1px solid black; width:50px; height: 50px; margin-top:200px;}
+.two{border: 1px solid black; width:50px; height: 50px; margin-left:20px; margin-top:-90px;}
+
+.rl, .ll, .bdy, .la, .ra, .h{transition: 0.2s;}
